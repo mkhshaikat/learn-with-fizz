@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-div {
+  width: 100%;
+  height: 1040px;
+  background: rgb(205, 204, 204);
+}
+.card-div-1 {
+  width: 90%;
+  height: 520px;
+  margin: 0 auto;
+}
+.card-div-2 {
+  width: 20%;
+  height: 470px;
+  margin-top: 40px;
+  box-shadow: 5px 7px 1px rgb(164, 159, 159), -5px -5px 1px rgb(164, 159, 159);
+  float: left;
+  text-align: justify;
+  border-radius: 20px;
+  margin-left: 50px;
+  background: rgb(154, 11, 11);
+}
+.card-div-3 {
+  width: 20%;
+  height: 470px;
+  margin-top: 40px;
+  box-shadow: 5px 7px 1px rgb(164, 159, 159), -5px -5px 1px rgb(164, 159, 159);
+  float: left;
+  text-align: justify;
+  border-radius: 20px;
+  margin-left: 50px;
+  background: rgb(154, 11, 11);
+}
+.card-div-4 {
+  width: 20%;
+  height: 470px;
+  margin-top: 40px;
+  box-shadow: 5px 7px 1px rgb(164, 159, 159), -5px -5px 1px rgb(164, 159, 159);
+  float: left;
+  text-align: justify;
+  border-radius: 20px;
+  margin-left: 50px;
+  background: rgb(154, 11, 11);
+}
+.card-div-5 {
+  width: 20%;
+  height: 470px;
+  margin-top: 40px;
+  box-shadow: 5px 7px 1px rgb(164, 159, 159), -5px -5px 1px rgb(164, 159, 159);
+  float: left;
+  text-align: justify;
+  border-radius: 20px;
+  margin-left: 50px;
+  background: rgb(154, 11, 11);
+}
+.card-div-2:hover,.card-div-3:hover,.card-div-4:hover,.card-div-5:hover  {
+  transform: scale(1.1);
+  transition: 2s;
+  box-shadow: 4px 5px 2px rgb(164, 159, 159),-4px -4px 1px rgb(164, 159, 159);
+  background: rgb(165, 151, 151);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+button:hover{
+  background-color: brown;
+  border: 1px solid rgb(199, 17, 84);
+ 
+}
+p:hover{
+  background-color: rgb(12, 36, 16);
+  color: rgb(224, 236, 236);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+p {
+  background: rgb(136, 225, 133);
+  color: rgb(176, 31, 38);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 15px;
+}
+
+img {
+  width: 227px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+button {
+  width: 130px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  background: rgb(48, 17, 199);
+  color: azure;
+  outline: none;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid rgb(48, 17, 199);
+  border-radius: 20px;
+}

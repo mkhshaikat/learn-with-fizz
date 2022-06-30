@@ -1,0 +1,449 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+/* responsive start here */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ /* header start here here */
+ 
+ header{
+  width: 90%; 
+}
+.nav{
+  width: 100%;
+  height: 265px;
+  background: rgb(206, 25, 25);
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;   
+}
+.logo{
+  width: 20%;
+  float: right;
+ 
+}
+.nav ul li{
+  display: block;
+  width: 150px;
+}
+.nav ul li a{
+  font-size: 10px;
+  display: block;
+
+}
+
+ .drowp-1{
+   left: 200;
+   width: 150px;
+   margin-left: 80px;
+  
+   
+  }
+  .drowp-1 li a{
+   width: 100px; 
+  
+  }
+  
+  .drowp-3{
+    margin-left: 150px;
+    
+   }
+   /*header-end-here *
+
+   /* body-div- start  here */
+ .body-div{
+  margin-top: 200px;
+ }
+
+.body-left::after{
+
+    top: 20px;
+    left: 30px;
+    height: 320px;
+    opacity: .6;
+} 
+
+
+.h1{
+ font-size: 25px;
+}
+
+.h2{
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 5px;
+  position: relative;
+ }
+ .h2::before{
+    top: 25px;
+    left: 330px;
+    width: 50px;
+    
+  }
+ .ngo-btn{
+ margin-top: 20px;
+ margin-left: 80px;
+ 
+}
+/*body-div-end-here */
+
+/*polli-div-start-here */
+
+
+.polli-1{
+  display: block;
+  margin-top: 11px;
+}
+.polli-left{
+  width: 130%;
+  margin-top: 30px;
+}
+.polli-right{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.user{
+  font-size: 20px;
+}
+
+.pdb{
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+.pdb1{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+.pdb1::after{
+    top: 18px;
+    left: 294px;  
+  }
+/*polli-div-end-here */
+
+/* payment-div-start */
+
+.payment-1{
+  
+  display: block;
+  
+}
+.payment-left{
+  width: 120%;
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
+.payment-right{
+  width: 100%;
+ 
+}
+.payment-right{
+   margin-top: 60px;
+  
+}
+
+/* payment-div-end */
+
+/* applicant-div-start */
+.applicant{
+  margin-top: 330px;
+}
+.applicant-1{
+  display: block;
+}
+.applicant-left{
+  width: 100%;
+}
+.applicant-right{
+  width: 100%;
+  margin: auto;
+  display: block;
+ 
+}
+ .welcome{
+
+  font-size: 16px; 
+  margin-top: 50px;
+}
+
+.welcome-1{
+
+  margin-top: 10px;
+  font-size: 15px;
+    
+}
+.welcome-1::after{
+    top: 40px;
+    left: 0;
+    
+  }
+  .welcome::before{
+    
+      top: 48px;
+      left: 263px;
+    } 
+
+/* applicant-div-end */
+
+/* gallery-div-start */
+.gallery{
+  width: 100%;
+  height: 1100px;
+    
+}
+.gallery-1{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+    
+}
+.gallery-2{
+  width: 90%;
+  height: 500px;    
+}
+.gall{
+
+  margin-top: 440px; 
+ }
+
+.img-1{
+  width: 40%;
+  height: 200px; 
+  transition: 1s;
+  margin: auto;
+ 
+}
+.img-2{
+  width: 40%;
+  height: 200px; 
+ 
+  transition: 1s;
+  margin: auto;
+ 
+}
+
+/* gallery-div-end */
+
+
+/* who-div-start */
+
+.who-div{
+  width: 100%;
+  height: 1100px;
+  margin-top: 70px;
+  
+}
+
+.left{
+  width: 100%;
+  margin-top: 20px;
+  
+}
+.who-h1{
+  background-color: rgb(247, 58, 58);
+  color: white;
+  padding: 4px;
+  text-align: center;
+ }
+.must{
+  text-align: center;
+}
+ .middle{
+  width: 100%;
+  margin-top: 20px;
+  
+}
+.ifram{
+  width: 100%;
+}
+.watch{
+  width: 300px;
+  margin-left: 60px;
+ }
+ 
+/* who-div-end */
+
+/*achievement-div-start */
+.achievement{
+  height: 400px;
+  margin-top: 50px;
+  
+}
+.h1-total{
+  font-size: 15px;
+}
+/*achievement-div-end */
+
+
+/*corporate-div-start */
+
+.corporate{
+  width: 100%;
+  height: 830px;
+}
+.corporate-1{
+  
+  display: block;
+  margin: auto;  
+}
+
+.corporate-2{
+  width: 100%;
+  height: 275px;
+  text-align: center;
+}
+.span:hover{
+  font-size: 30px;
+  color: #FE28A2;  
+}
+.corporate-3{
+  width: 100%;
+  height: 395px;
+
+}
+input{
+  width: 300px;
+  
+}
+textarea{
+  width: 300px;
+}
+
+/*corporate-div-end */
+
+
+/*location-map-div-start */
+
+.map{
+ 
+  width: 100%;
+}
+
+/*location-map-div-end */
+
+/*loan-div-start */
+
+.loan{
+  height: 1150px;
+  display: block;
+ 
+ 
+}
+.loan-left{
+  width: 90%;
+  
+  
+}
+.loan-middle{
+  width: 90%;
+ 
+}
+.loan-right{
+  width: 90%;
+}
+
+/*loan-div-end */
+
+/*footer-section-start */
+
+.footer{
+  width: 90%;
+  height: 885px;
+  margin-top: 20px;
+ 
+}
+.footer-1{
+  width: 90%;
+  height: 500px;
+  display: block;
+}
+
+
+.follow{
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  text-align: center;
+  
+}
+.follow-1{
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  text-align: justify;
+  margin-left: 140px;
+  
+}
+.follow-2{
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  
+}
+.follow-2 h2{
+  padding: 15px;
+  text-align: center;
+  
+}
+.follow-2 h4{
+  padding: 15px;
+  text-align: center;
+  
+}
+.follow h4,.follow-1 h4{
+  margin-top: 20px;
+  
+}
+
+.mapp{
+
+  width: 100%;
+  height: 200px;
+}
+.copy{
+  margin-top: 450px;
+  width: 100%;
+  font-size: 15px;
+  margin-left: -70px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+/*footer-section-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive end here */
