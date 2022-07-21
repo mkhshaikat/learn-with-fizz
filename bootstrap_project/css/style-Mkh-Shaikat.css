@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bubblegum Sans', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@200;300;600&display=swap');
+.navbar-brand{
+  width: 150px;
+}
+
+.bg-img{
+  width: 100%;
+  height: 500px;
+  background-image: url("images/bg/slider-bg-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bg-img h6{
+font-size: .7rem;
+color: rgba(77, 72, 81, 0.876);
+font-weight: 700;
+}
+.bg-img h1{
+  font-size: 3rem;
+  color: rgba(66, 15, 107, 0.876);
+  font-weight: 700;
+}
+.body-card{
+  position: absolute;
+ bottom: 120px;
+ margin-left: 100px;
+}
+.card {
+ border: none;
+ box-shadow: 0px 0px 10px black;
+ height: auto;
+ 
+}
+
+.card i{
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.card h6,p{
+  color: rgba(77, 72, 81, 0.876);
+}
+.card h4{
+  color: rgba(66, 15, 107, 0.876);
+}
+
+.personal{
+  margin-top: 250px;
+  
+}
+.personal-1 h1{
+  font-weight: 700;
+  color: rgb(12, 12, 116);
+  font-family:'Bubblegum Sans', cursive;
+ 
+}
+.number-1{
+  background: rgb(52, 8, 114);
+  color: #fff;
+}
+.number-1 h1{
+ font-weight: 700;
+ font-size: 4rem;
+}
+.number-1 span{
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: -15px;
+  color: rgb(152, 152, 168);
+ }
+ .number-1 small{
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgb(152, 152, 168);
+ }
+ .hr{
+  width: 50px;
+  height: 4px;
+  background: rgb(188, 18, 18);
+  margin: auto;
+  margin-top: 20px;
+ }
+.lab-1{
+  background: rgb(226, 165, 165);
+  
+}
+.lab-1 {
+  background: rgb(226, 165, 165);
+  
+}
+

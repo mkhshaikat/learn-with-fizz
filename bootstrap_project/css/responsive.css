@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #top h6{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  }
+  .nav-link{
+    text-align: center;
+  }
+  
+  .around{
+    margin-top: 10px;
+    text-align: center; 
+  }
+.third-img{
+  margin-top: -60px;
+}
+.personal {
+  margin: 50px;
+}
+.labb {
+  margin-left: -140px;
+}
+.book-1 {
+  background: rgb(219, 230, 232);
+  margin-left: 50px;
+  width: 100%;
+}
+.appoinment p {
+ font-size: 15px;
+width: 350px;
+text-align: justify;
+}
+.text {
+  width: 250px;
+}
+.btnnn{
+  width: 250px;
+}
+.we{
+  margin-left: -65px;
+}
+.get{
+  text-align: center;
+}
+.arrow{
+  text-align: end;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)  {
+
+#top h6{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  }
+  .nav-link{
+    text-align: center;
+  }
+  
+  .around{
+    margin-top: 10px;
+    text-align: center; 
+  }
+.third-img{
+  margin-top: -60px;
+}
+.personal {
+  margin: 50px;
+}
+.labb {
+  margin-left: -100px;
+}
+.book-1 {
+  background: rgb(219, 230, 232);
+  margin-left: 50px;
+  width: 100%;
+}
+.appoinment p {
+ font-size: 15px;
+width: 350px;
+text-align: justify;
+}
+.text {
+ 
+}
+.btnnn{
+  width: 250px;
+}
+.we{
+  width: 370px;
+}
+.coma,.coma-1{
+  display: none;
+}
+.get{
+  text-align: center;
+}
+.arrow{
+  text-align: end;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  #top h6{
+    text-align: end;
+    margin-top: -20px;
+    }
+    
+    .around{
+      margin-top: 10px; 
+      margin-left: 100px;
+    }
+  .third-img{
+    margin-top: -60px;
+  }
+  .personal {
+    margin: 50px;
+  }
+  .labb {
+    margin-left: -100px;
+  }
+  .book-1 {
+    background: rgb(219, 230, 232);
+    margin-left: 50px;
+    width: 100%;
+  }
+ .appoinment p {
+ font-size: 15px;
+width: 350px;
+text-align: justify;
+}
+
+.btnnn{
+  width: 250px;
+}
+.we{
+  width: 370px;
+}
+  .btnnn{
+    width: 500px;
+  }
+  
+  .get{
+    text-align: center;
+  }
+  .arrow{
+    text-align: end;
+  }
+  .form-select {
+    width: 750px;
+  }
+  .inn {
+    width: 650px;
+  .text{
+    width: 520px;
+  }
+ 
+  
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .appoinment p {
+    font-size: 15px;
+   width: 550px;
+   text-align: justify;
+   }
+   .form-select {
+    width: 750px;
+  }
+  .text{
+    width: 520px;
+  }
+ 
+  
+
+}
+ 
+
