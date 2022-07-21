@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style> 
+    table,tr,td {
+        width:120;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+    
+        
+
+    }
+    }
+   th,td { border-collapse: collapse;
+    color: blue;
+    padding: 8px;
+    border: 3px solid red
+
+    }
+    body{
+       background-image: url("");
+    }
+    
+    
+    
+    </style>
+</head>
+<body>
+    
+    <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; color: blue; ">Mkh Shaikat</h2>
+
+    <img src="./New folder/mkhshaikat.jpg" width="150" height="150" alt="mkhshaikatphoto">
+    <br>
+    <form action="#">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Type your name" name="name" id="name">
+        </div> <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email">
+        </div> <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="Password" id="password">
+        </div> <br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="Gender"  value="Male">Male
+            <input type="radio" name="gender"  value="Female">Female
+        </div> <br>
+        <div>
+            <label for="religion">Religion:</label>
+            <select>
+            <option value="Male">Male</option>
+            <option value="Female" selected>Female</option>
+            <option value="other">Other</option>
+            <option value="None">None</option>
+            </select>
+        </div> <br>
+        <div>
+            <label for="messages">messages:</label><br>
+           <textarea name="messages" id="messages" cols="30" rows="10"></textarea>
+           <div>
+            <label for="file">File:</label>
+            <input type="file" name="file" id="file" >
+        
+        </div> <br>
+
+            
+        </div> <br>
+        <input type="submit" value="send">
+        <input type="reset" value="clear">
+
+
+
+
+
+
+    </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Age</th>
+                <th>Club</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Leo Messi</td>
+                <td>Argentina</td>
+                <td>30</td>
+                <td rowspan="2">PSG</td>
+                </tr>
+                <tr>
+                    <td>Neymar</td>
+                    <td>Brasil</td>
+                    <td>39</td>
+                    
+                    </tr>
+                    
+                    <tr>
+                        <td>Salah</td>
+                        <td>Egpet</td>
+                        <td>28</td>
+                        <td>Liverpol</td>
+                        </tr>
+
+        </tbody>
+    </table>
+    <h2>hello</h2>
+
+
+    
+</body>
+
+
+
+
+
+</html>
